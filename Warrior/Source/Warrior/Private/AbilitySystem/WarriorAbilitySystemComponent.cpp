@@ -39,6 +39,7 @@ void UWarriorAbilitySystemComponent::GrantHeroWeaponAbilities(const TArray<FWarr
 		
 		OutGrantedAbilitySpecHandles.AddUnique(GiveAbility(AbilitySpec));
 		
+		
 	}
 
 	

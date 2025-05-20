@@ -2,10 +2,13 @@
 
 
 #include "Items/Weapons/WarriorHeroWeapon.h"
+#include "WarriorDebugHelper.h"
 
 void AWarriorHeroWeapon::AssignGrantedAbilitySpecHandles(const TArray<FGameplayAbilitySpecHandle>& InSpecHandles)
 {
 	GrantedAbilitySpecHandles = InSpecHandles;
+	
+	
 }
 
 TArray<FGameplayAbilitySpecHandle> AWarriorHeroWeapon::GetGrantedAbilitySpecHandles() const
